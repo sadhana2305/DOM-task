@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic tasks</title>
+</head>
+<body>
+    <script>
+        //task 1
+        console.log("uppercase task")
+
+        let username =prompt("enter a username");
+        if(username!==null){
+            let uppercasename = username.toUpperCase()
+            console.log(uppercasename);
+        }
+        else{
+           console.log("enter correct username") 
+        }
+        //task 2
+        console.log("lowercase task")
+
+        let str=prompt("enter a username");
+        if(str!==null){
+            let lowercasename = str.toLowerCase()
+            console.log(lowercasename);
+        }
+        else{
+           console.log("enter correct username") 
+        }
+        //task 3
+        console.log("reverse string task")
+        let name=prompt("enter a username")
+        if(name!==null){
+            let reversestring=name.split("").reverse().join("");
+            console.log(reversestring)
+        }
+        
+    </script>
+</body>
+</html>
